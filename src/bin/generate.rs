@@ -95,7 +95,7 @@ fn main() {
             /*
              * 🔥 beware: esto modifica todo los enlaces❗❗
              */
-            let base_url = "https://www.rustlang-es.org";
+            let base_url = "https://rustlang-es.org";
 
             let parts: Vec<&str> = path.split('/').collect();
             println!(">>>> {:?}", parts);
@@ -105,19 +105,19 @@ fn main() {
                 ("home", "src") => (format!("{}/{}", parts[0], parts[1]), format!("{base_url}/")),
                 ("blog", "articles") => (
                     format!("{}/{}", parts[0], parts[1]),
-                    format!("{base_url}/blog/articles/{}.html", parts[2]),
+                    format!("https://blog.rustlang-es.org/articles/{}", parts[2]),
                 ),
                 ("blog", "esta_semana_en_rust") => (
                     format!("{}/{}", parts[0], parts[1]),
-                    format!("{base_url}/blog/articles/{}.html", parts[2]),
+                    format!("https://blog.rustlang-es.org/articles/{}", parts[2]),
                 ),
                 ("blog", "tags") => (
                     format!("{}/{}", parts[0], parts[1]),
-                    format!("{base_url}/blog/tags/{}.html", parts[2]),
+                    format!("https://blog.rustlang-es.org/tags/{}", parts[2]),
                 ),
                 ("book", "src") => (
                     format!("{}/{}", parts[0], parts[1]),
-                    format!("{base_url}/rust-book-es/{}.html", parts[2]),
+                    format!("https://book.rustlang-es.org/{}", parts[2]),
                 ),
                 ("dotnet", "src") => {
                     // println!(">>>>>{}/{}: {:?}", parts[0], parts[1], parts);
@@ -125,14 +125,14 @@ fn main() {
                         (
                             format!("{}/{}", parts[0], parts[1]),
                             format!(
-                                "{base_url}/rust-para-dotnet-devs/{}/{}.html",
+                                "https://dotnet-book.rustlang-es.org/{}/{}.html",
                                 parts[3], page
                             ),
                         )
                     } else {
                         (
                             format!("{}/{}", parts[0], parts[1]),
-                            format!("{base_url}/rust-para-dotnet-devs/{}.html", parts[3]),
+                            format!("https://dotnet-book.rustlang-es.org/{}.html", parts[3]),
                         )
                     }
                 }
