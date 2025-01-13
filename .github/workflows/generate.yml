@@ -58,7 +58,8 @@ jobs:
             sitemap.xml
 
       - name: Repository Dispatch
-        uses: peter-evans/repository-dispatch@v2
+        uses: peter-evans/repository-dispatch@v3
         with:
+          token: ${{ secrets.PAT }}
           repository: RustLangES/RustLangES.github.io
-          event-type: sitemap_changed
+          event-type: deploy
