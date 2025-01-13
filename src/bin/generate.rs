@@ -125,14 +125,14 @@ fn main() {
                         (
                             format!("{}/{}", parts[0], parts[1]),
                             format!(
-                                "https://dotnet-book.rustlang-es.org/{}/{}.html",
+                                "https://dotnet-book.rustlang-es.org/{}/{}",
                                 parts[3], page
                             ),
                         )
                     } else {
                         (
                             format!("{}/{}", parts[0], parts[1]),
-                            format!("https://dotnet-book.rustlang-es.org/{}.html", parts[3]),
+                            format!("https://dotnet-book.rustlang-es.org/{}", parts[3]),
                         )
                     }
                 }
