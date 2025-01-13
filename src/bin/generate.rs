@@ -127,12 +127,12 @@ fn main() {
                             format!(
                                 "https://dotnet-book.rustlang-es.org/{}/{}",
                                 parts[3], page
-                            ),
+                            ).replace("/index", ""),
                         )
                     } else {
                         (
                             format!("{}/{}", parts[0], parts[1]),
-                            format!("https://dotnet-book.rustlang-es.org/{}", parts[3]),
+                            format!("https://dotnet-book.rustlang-es.org/{}", parts[3]).replace("/index", ""),
                         )
                     }
                 }
