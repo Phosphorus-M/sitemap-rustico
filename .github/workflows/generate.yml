@@ -45,7 +45,7 @@ jobs:
         with:
           committer_name: GitHub Actions
           committer_email: 41898282+github-actions[bot]@users.noreply.github.com
-          message: "[${{ toJSON(github.event.client_payload.from) }}] update."
+          message: "Update the sitemap"
           add: "generated/dates_and_paths.txt"
 
       - uses: "marvinpinto/action-automatic-releases@latest"
