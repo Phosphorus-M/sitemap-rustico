@@ -4,13 +4,18 @@ use serde::Deserialize;
 use std::collections::HashSet;
 use std::fs;
 
+// * @see https://github.com/the-alchemists-of-arland/gray-matter-rs#basic-parsing
+#[derive(Deserialize, Debug)]
+struct FrontMatter {
+    tags: Vec<String>,
+}
+
 fn main() {
     let articles_tags = tags("./blog/articles");
     let mut tags = tags("./blog/esta_semana_en_rust");
     tags.extend(articles_tags);
     let mut sorted_tags: Vec<&String> = tags.iter().collect();
     sorted_tags.sort();
-    //todo tags from dev-to, hash-node
     for tag in sorted_tags {
         //? the comma is important in order to respect the comma separation
         //? format: "date,path"
@@ -32,11 +37,6 @@ fn tags(path: &str) -> HashSet<String> {
             matter.parse(&raw)
         })
         .flat_map(|result| {
-            // * @see https://github.com/the-alchemists-of-arland/gray-matter-rs#basic-parsing
-            #[derive(Deserialize, Debug)]
-            struct FrontMatter {
-                tags: Vec<String>,
-            }
             let front_matter: FrontMatter = result.data.unwrap().deserialize().unwrap();
             front_matter.tags
         })

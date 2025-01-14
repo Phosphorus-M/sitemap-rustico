@@ -1,0 +1,8 @@
+[package]
+name = "tags"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+gray_matter = { workspace = true }
+serde = { workspace = true }
