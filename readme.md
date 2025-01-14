@@ -1,9 +1,14 @@
-## 🍕 diagrama general
+# Sitemap Rustico 👨‍🌾
+
+Originalmente hecho por [ph4un00b](https://github.com/ph4un00b/sitemap-rustico). Esto es un fork temporal ✨.
+
+
+## 🍕 Diagrama General
 
 ![diagrama](diagrama.png)
 
 - antes de crear algún cambio modificar el diagrama❗
-- [https://excalidraw.com/#json=huU3UCnJK3nJJBUWd2EQ8,WGBe0SMz9VYgMuXIIgNZdg](https://excalidraw.com/#json=huU3UCnJK3nJJBUWd2EQ8,WGBe0SMz9VYgMuXIIgNZdg)
+- https://www.tldraw.com/s/v2_c_vsmDpfm4FPQSM-nfkKamO?d=v-1889.-958.3912.2580.page
 
 ## 🍔 Instructions
 
@@ -16,7 +21,7 @@
     ```
 - Sólo elegís el script para tu sistema, no tengas miedo de otros scripts de otros sistemas operativos no te van a morder.
   - windows: `generate.bat`
-  - unix: `generate.sh`
+  - POSIX: `generate.sh`
 
 ## ✨ Agregando un nuevo libro ó pagina para indexar:
 
@@ -31,7 +36,7 @@
     - agregar al `ignore_paths.rs` los path que no tienen sentido como:
       - `dotnet/src/es/SUMMARY`,
       - `dotnet/src/es/license`
-    - ajustar apropiadamente `src/bin/generate.rs`
+    - ajustar apropiadamente `src/generate.rs`
       - podes usar de referencia: `https://github.com/ph4un00b/sitemap-rustico/commit/2c0e4e761fd48d25ff2d27f89723d11e57140c59`
 
 ## 🧪 testing workflow
