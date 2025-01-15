@@ -5,7 +5,7 @@ Originalmente hecho por [ph4un00b](https://github.com/ph4un00b/sitemap-rustico).
 
 ## 🍕 Diagrama General
 
-![diagrama](diagrama.png)
+![diagrama](./images/diagrama.png)
 
 - antes de crear algún cambio modificar el diagrama❗
 - https://www.tldraw.com/s/v2_c_vsmDpfm4FPQSM-nfkKamO?d=v-1889.-958.3912.2580.page
@@ -55,3 +55,26 @@ Originalmente hecho por [ph4un00b](https://github.com/ph4un00b/sitemap-rustico).
 
 - [ ] el código no esta tan trabajado si querés mejorar la estructura, podes contactar antes en la comunidad para retroalimentar y no mal usar vuestro tiempo.
 - [ ] mejorar el readme para agregar libros.
+
+
+## Otras cosas de la comunidad 👀
+
+
+<table style="text-align:center;">
+<tr>
+  <td><a href="https://rustlang-es.org">¡Nuestro website!</a></td>
+  <td><a href="https://book.rustlang-es.org">¡La traducción del libro Rust!</a></td>
+  <td><a href="https://blog.rustlang-es.org">¡Nuestro blog comunitario!</a></td>
+</tr>
+<tr style=" margin: 0; padding: 0;">
+  <td style=" margin: 0; padding: 0;">
+    <img src="./images/img1.png" alt="RustLangES" />
+  </td>
+  <td style=" margin: 0; padding: 0;">
+    <img src="./images/img2.png" alt="RustLangES" />
+  </td>
+  <td style=" margin: 0; padding: 0;">
+    <img src="./images/img3.png" alt="RustLangES" />
+  </td>
+</tr>
+
