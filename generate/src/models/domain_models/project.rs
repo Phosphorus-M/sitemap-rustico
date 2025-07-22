@@ -9,6 +9,7 @@ pub enum Project {
     },
     Book(String),
     DotnetBook(String),
+    GoBook(String)
 }
 
 
@@ -39,6 +40,15 @@ impl From<&str> for Project {
                 } else {
                     let url = format!("https://dotnet-book.rustlang-es.org/{}", parts[3]).replace("/index", "");
                     Project::DotnetBook(url)
+                }
+            },
+            ("go-book", "src") => {
+                if let Some(page) = parts.get(4) {
+                    let url = format!("https://go-book.rustlang-es.org/es/{}/{}", parts[3], page).replace("/index", "");
+                    Project::GoBook(url)
+                } else {
+                    let url = format!("https://go-book.rustlang-es.org/es/{}", parts[3]).replace("/index", "");
+                    Project::GoBook(url)
                 }
             }
             _ => panic!("invalid namespace❗: {parts:?}"),

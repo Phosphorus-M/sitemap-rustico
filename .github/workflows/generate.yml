@@ -33,6 +33,7 @@ jobs:
           git clone https://github.com/RustLangES/RustLangES.github.io.git home
           git clone https://github.com/RustLangES/rust-book-es.git book
           git clone https://github.com/RustLangES/rust-para-dotnet-devs.git dotnet
+          git clone https://github.com/RustLangES/rust-para-go-devs.git go-book
 
       - name: generate sitemap.xml
         run: |

@@ -40,7 +40,7 @@ impl From<(String, Project)> for Url {
                 freq: Some(Changefreq::from(article_type)),
                 priority: Some("0.75".to_string()),
             },
-            Project::Book(url) | Project::DotnetBook(url) => Url {
+            Project::Book(url) | Project::DotnetBook(url) | Project::GoBook(url) => Url {
                 url,
                 updated_at: if date.is_empty() {
                     Some(iso_8601(&std::time::SystemTime::now()))

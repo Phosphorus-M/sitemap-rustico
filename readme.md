@@ -18,6 +18,7 @@ Originalmente hecho por [ph4un00b](https://github.com/ph4un00b/sitemap-rustico).
     git clone https://github.com/RustLangES/RustLangES.github.io.git home
     git clone https://github.com/RustLangES/rust-book-es.git book
     git clone https://github.com/RustLangES/rust-para-dotnet-devs.git dotnet
+    git clone https://github.com/RustLangES/rust-para-go-devs.git go-book
     ```
 - Sólo elegís el script para tu sistema, no tengas miedo de otros scripts de otros sistemas operativos no te van a morder.
   - windows: `generate.bat`

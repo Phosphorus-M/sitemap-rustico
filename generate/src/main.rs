@@ -15,7 +15,7 @@ use models::sitemap_models::url_set::UrlSet;
  */
 mod models;
 
-const PATHS_TO_IGNORE: [&str; 6] = [
+const PATHS_TO_IGNORE: [&str; 7] = [
     "book/src/SUMMARY",
     "home/src/pages/communidad",   /* communidad.rs */
     "home/src/pages/contributors", /* contributors.rs */
@@ -23,6 +23,7 @@ const PATHS_TO_IGNORE: [&str; 6] = [
     /* dotnet book*/
     "dotnet/src/es/SUMMARY",
     "dotnet/src/es/license",
+    "go-book/src/es/SUMMARY",
 ];
 
 fn main() -> Result<(), Box<dyn std::error::Error>> {
