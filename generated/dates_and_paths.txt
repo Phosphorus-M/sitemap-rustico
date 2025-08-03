@@ -44,12 +44,18 @@
 2024-05-25T12:01:22-03:00,dotnet/src/es/threading/index
 2024-09-15T23:07:17-04:00,dotnet/src/es/threading/producer-consumer
 2025-06-02T23:41:48-03:00,dotnet/src/es/threading/synchronization
-2025-07-10T22:01:02-03:00,go-book/src/es/SUMMARY
+2025-07-31T09:28:44-03:00,go-book/src/es/SUMMARY
 2025-07-10T22:01:02-03:00,go-book/src/es/fundamental
+2025-07-31T09:28:44-03:00,go-book/src/es/fundamental/code-organization
+2025-07-28T12:19:26-03:00,go-book/src/es/fundamental/dependency-managment
 2025-07-10T22:01:02-03:00,go-book/src/es/fundamental/ownership-and-borrowing
 2025-06-18T00:45:01-03:00,go-book/src/es/getting-started
 2025-06-09T19:43:48-03:00,go-book/src/es/introduction
 2025-06-20T06:26:00-03:00,go-book/src/es/mindset
+2025-07-29T07:06:20-03:00,go-book/src/es/new-concepts
+2025-08-02T20:31:41-03:00,go-book/src/es/new-concepts/generics-traits-and-static-dispatch
+2025-08-02T20:31:41-03:00,go-book/src/es/new-concepts/smart-pointers
+2025-07-29T07:06:20-03:00,go-book/src/es/new-concepts/traits
 2025-06-10T03:56:49-03:00,go-book/src/es/quick-comparisons
 2025-06-20T12:07:09-03:00,go-book/src/es/quick-comparisons/casting
 2025-06-26T13:24:31-03:00,go-book/src/es/quick-comparisons/control-flow
@@ -59,7 +65,7 @@
 2025-06-21T06:28:51-03:00,go-book/src/es/quick-comparisons/functions
 2025-06-27T09:53:15-03:00,go-book/src/es/quick-comparisons/nullability-and-optionality
 2025-06-10T03:56:49-03:00,go-book/src/es/quick-comparisons/scalar-types
-2025-06-26T13:24:39-03:00,go-book/src/es/quick-comparisons/structures
+2025-07-30T18:51:18-03:00,go-book/src/es/quick-comparisons/structures
 2025-06-14T12:53:01-03:00,go-book/src/es/quick-comparisons/tooling
 2025-06-26T13:24:31-03:00,go-book/src/es/quick-comparisons/tuples-and-collections
 2025-06-20T12:07:09-03:00,go-book/src/es/quick-comparisons/variable-declaration
@@ -140,6 +146,7 @@
 2025-07-05T01:02:05Z,blog/esta_semana_en_rust/2025-07-02-this-week-in-rust
 2025-07-12T01:08:44Z,blog/esta_semana_en_rust/2025-07-09-this-week-in-rust
 2025-07-19T01:06:17Z,blog/esta_semana_en_rust/2025-07-16-this-week-in-rust
+2025-08-02T01:06:49Z,blog/esta_semana_en_rust/2025-07-30-this-week-in-rust
 2025-06-01T06:12:46-03:00,book/src/SUMMARY
 2023-09-28T21:31:58-03:00,book/src/appendix-00
 2025-04-19T13:06:53-03:00,book/src/appendix-01-keywords
