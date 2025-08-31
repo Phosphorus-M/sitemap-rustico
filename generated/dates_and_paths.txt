@@ -44,7 +44,7 @@
 2024-05-25T12:01:22-03:00,dotnet/src/es/threading/index
 2024-09-15T23:07:17-04:00,dotnet/src/es/threading/producer-consumer
 2025-06-02T23:41:48-03:00,dotnet/src/es/threading/synchronization
-2025-07-31T09:28:44-03:00,go-book/src/es/SUMMARY
+2025-08-27T14:34:08-03:00,go-book/src/es/SUMMARY
 2025-07-10T22:01:02-03:00,go-book/src/es/fundamental
 2025-07-31T09:28:44-03:00,go-book/src/es/fundamental/code-organization
 2025-07-28T12:19:26-03:00,go-book/src/es/fundamental/dependency-managment
@@ -54,6 +54,7 @@
 2025-06-20T06:26:00-03:00,go-book/src/es/mindset
 2025-07-29T07:06:20-03:00,go-book/src/es/new-concepts
 2025-08-02T20:31:41-03:00,go-book/src/es/new-concepts/generics-traits-and-static-dispatch
+2025-08-27T14:34:08-03:00,go-book/src/es/new-concepts/interior-mutability
 2025-08-02T20:31:41-03:00,go-book/src/es/new-concepts/smart-pointers
 2025-07-29T07:06:20-03:00,go-book/src/es/new-concepts/traits
 2025-06-10T03:56:49-03:00,go-book/src/es/quick-comparisons
@@ -150,6 +151,7 @@
 2025-08-09T01:04:28Z,blog/esta_semana_en_rust/2025-08-06-this-week-in-rust
 2025-08-16T01:02:24Z,blog/esta_semana_en_rust/2025-08-13-this-week-in-rust
 2025-08-23T00:58:35Z,blog/esta_semana_en_rust/2025-08-20-this-week-in-rust
+2025-08-30T00:56:25Z,blog/esta_semana_en_rust/2025-08-27-this-week-in-rust
 2025-06-01T06:12:46-03:00,book/src/SUMMARY
 2023-09-28T21:31:58-03:00,book/src/appendix-00
 2025-04-19T13:06:53-03:00,book/src/appendix-01-keywords
